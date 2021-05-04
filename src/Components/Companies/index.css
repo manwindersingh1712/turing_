@@ -47,12 +47,8 @@
 }
 
 @media (max-width: 650px) {
-  .companies .company_data {
-    grid-template-rows: repeat(9, 1fr);
-    grid-template-columns: repeat(1, 1fr);
-  }
   .companies {
-    margin: 0 70px;
+    margin: 0 10px;
     margin-bottom: 30px;
   }
 }

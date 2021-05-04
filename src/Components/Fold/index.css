@@ -41,10 +41,30 @@
 
 @media (max-width: 750px) {
   .fold_container .box {
-    transform: scale(0.7);
     text-align: center;
-    left:0;
+    margin: 0;
+    left: 0;
     width: max-content;
     margin: 0 auto;
+  }
+  .fold_container .sub_head {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .fold_container .sub_head {
+    font-size: 12px;
+  }
+  .fold_container .head {
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .fold_container button {
+    margin-top: 10px;
+    transform: scale(0.6);
   }
 }
