@@ -53,6 +53,65 @@
 }
 
 .card button i {
+  font-size: 15px;
   width: 7px;
   height: 15px;
+}
+
+@media (max-width: 750px) {
+  .card {
+    width: 350px;
+    height: 150px;
+  }
+  .card .card_top .head {
+    font-size: 17px;
+  }
+  .card .card_top .time {
+    font-size: 13px;
+  }
+  .card .middle {
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .card .end {
+    margin-top: 20px;
+    width: 300px;
+    font-size: 14px;
+    height: 107px;
+  }
+  .card button {
+    width: 35px;
+    height: 33px;
+    font-size: 15px;
+  }
+
+  .card button i {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 300px;
+    height: 130px;
+  }
+  .card .card_top .head {
+    font-size: 15px;
+  }
+  .card .card_top .time {
+    font-size: 11px;
+  }
+  .card .middle {
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  .card .end {
+    margin-top: 10px;
+    width: 250px;
+    font-size: 12px;
+    height: 100px;
+  }
+  .card button {
+    transform: scale(0.8);
+  }
 }

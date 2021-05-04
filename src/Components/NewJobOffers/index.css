@@ -63,6 +63,9 @@ hr {
 }
 
 @media (max-width: 750px) {
+  hr {
+    width: 350px;
+  }
   .new_job_offer_container {
     margin: 0;
   }
@@ -80,8 +83,14 @@ hr {
     text-align: center;
   }
   .new_job_offer_container .cards {
-    transform: scale(0.8);
     width: max-content;
     margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  hr {
+    width: 300px;
   }
 }
