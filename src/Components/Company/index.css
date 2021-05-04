@@ -1,0 +1,38 @@
+.company {
+  width: 146px;
+  height: 132px;
+}
+
+.company img {
+  width: 28px;
+  height: 25px;
+}
+
+.company .logo {
+  width: 91px;
+  height: 91px;
+  border: 1px solid #b9b9b9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.company .name {
+  text-align: left;
+  font-family: Manrope;
+  font-size: 20px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 9px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+@media (max-width: 850px) {
+  .company {
+    margin: 10px 0;
+  }
+}

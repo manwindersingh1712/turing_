@@ -1,0 +1,58 @@
+.card {
+  width: 492px;
+  height: 217px;
+  position: relative;
+  font-family: Manrope;
+}
+
+.card .card_top .head {
+  color: #276ffb;
+  font-size: 24px;
+}
+
+.card .card_top {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.card .card_top .time {
+  font-size: 18px;
+  color: #141414;
+  opacity: 0.6;
+}
+
+.card .middle {
+  margin-top: 3px;
+  display: flex;
+  color: #141414;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card .end {
+  margin-top: 28px;
+  width: 454px;
+  height: 127px;
+  opacity: 0.6;
+  text-align: left;
+  font-size: 20px;
+  height: 107px;
+}
+
+.card button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 46px;
+  height: 43px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.card button i {
+  width: 7px;
+  height: 15px;
+}
